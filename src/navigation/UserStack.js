@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { AddTaskScreen, CompletedScreen, HomeScreen, PremiumScreen, Profile, TaskScreen } from '../screen';
+import { AddTaskScreen, CompletedScreen, HomeScreen, Profile, TaskScreen } from '../screen';
 import { NavigationContainer } from '@react-navigation/native';
 import { Entypo } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
