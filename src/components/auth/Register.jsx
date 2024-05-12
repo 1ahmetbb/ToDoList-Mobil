@@ -5,8 +5,7 @@ import { registerForm } from '../../utils/const/authForm'
 import { inputReducer } from '../../reducer/inputReducer'
 import { useReducer } from 'react'
 import { registerWithEmailAndPassword } from '../../auth'
-import { useDispatch, useSelector } from 'react-redux'  //
-import { register } from '../../redux/userSlice'  //
+
 
 export default function Register({ navigation }) {
 

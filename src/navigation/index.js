@@ -8,7 +8,7 @@ import app from '../../firebaseConfig';
 
 export default function StackNavigatior() {
     const { loader } = useSelector((state) => state.general)
-    const isLogin = false;
+    const isLogin = true;
 
 
     return (

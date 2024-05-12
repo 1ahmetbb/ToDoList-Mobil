@@ -65,7 +65,7 @@ export default function UserStack() {
                         ),
                     }}
                 />
-
+{/* 
                 <Tab.Screen name="Completed" component={CompletedScreen}
                     options={{
                         tabBarLabel: ({ focused }) => (
@@ -97,7 +97,7 @@ export default function UserStack() {
 
                         )
                     }}
-                />
+                /> */}
             </Tab.Navigator>
         </NavigationContainer>
     )
