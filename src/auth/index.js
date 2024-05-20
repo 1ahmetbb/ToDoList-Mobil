@@ -2,7 +2,6 @@ import {
     getAuth,
     signInWithEmailAndPassword,
     createUserWithEmailAndPassword,
-    sendEmailVerification,
 } from "firebase/auth";
 
 

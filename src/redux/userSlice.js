@@ -1,12 +1,5 @@
-import AsyncStorage from '@react-native-async-storage/async-storage'
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
-import {
-    createUserWithEmailAndPassword,
-    getAuth,
-    sendEmailVerification,
-    signOut,
-    signInWithEmailAndPassword,
-} from 'firebase/auth'
+import { createSlice } from '@reduxjs/toolkit'
+
 
 const initialState = {
     name: '',
