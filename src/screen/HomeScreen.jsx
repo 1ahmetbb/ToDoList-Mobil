@@ -16,7 +16,7 @@ export default function HomeScreen() {
             <ScrollView showsVerticalScrollIndicator={false}>
                 <Header setModalVisible={setModalVisible} />
                 <List />
-                {/* <PremiumBanner /> */}
+                <PremiumBanner /> 
                 <Completed />
             </ScrollView>
 
