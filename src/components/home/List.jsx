@@ -5,6 +5,7 @@ import Section from '../shared/Section';
 import ListItem from '../shared/ListItem';
 import { getTask } from '../../taskProcess/taskProcess';
 
+
 export default function List() {
     const [modalVisible, setModalVisible] = useState(false);
 
@@ -38,9 +39,11 @@ export default function List() {
                     </View>
                 ))}
             </View>
-            <TouchableOpacity className='mt-[10px]'>
+            <TouchableOpacity className='mt-[10px]' onPress={() => setModalVisible(true)}>
                 <Text className='text-center text-secondary tex-[11px] underline '>Hedefini Gör</Text>
             </TouchableOpacity>
+
+
 
         </Section>
     )

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Text, View, TouchableOpacity, Pressable } from 'react-native'
 import { MaterialIcons, Entypo } from '@expo/vector-icons';
 import Checkbox from 'expo-checkbox';
+import { deleteTask } from '../../taskProcess/taskProcess';
 
 
 export default function ListItem({ detail = false }) {
@@ -47,7 +48,7 @@ export default function ListItem({ detail = false }) {
 
                     </Pressable>
 
-                    <Pressable className='flex-row items-center gap-[2px]' onPress={() => { console.log('selam2') }}>
+                    <Pressable className='flex-row items-center gap-[2px]' onPress={() => { deleteTask(item.id) }}>
 
                         <MaterialIcons name="delete-outline" size={16} color="#868E96" />
 
